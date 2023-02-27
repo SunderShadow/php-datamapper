@@ -1,0 +1,21 @@
+{
+    "name": "sander/datamapper",
+    "description": "PHP Data mapper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sander\\Data\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sander",
+            "email": "sunundershadow@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
